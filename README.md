@@ -1,6 +1,6 @@
 # Stereo-Depth-map-generation-3D-Reconstruction
 
-The goal of this repository is to generates depth maps from a stereo pair of images and to perform 3D reconstruction on these set of images. The images were captured from a fisheye stereo camera. The camera is calibrated using the omnidirectional camera calibration toolbox [here](https://github.com/jiuerbujie/omnidirectional_calibration). The Images folder contains  the left and right images required for calibration. 
+The goal of this repository is to generates depth maps from a stereo pair of images and to perform 3D reconstruction on these set of images. The images were captured from a fisheye stereo camera. The camera is calibrated using the omnidirectional camera calibration toolbox [here](https://github.com/jiuerbujie/omnidirectional_calibration). The calibration images can be found [here](./Images/left) and [here](./Images/right). After calibration a `.yml` file is generated which stores all the calibration parameters.
 
 
 
